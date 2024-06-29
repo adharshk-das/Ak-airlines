@@ -1,0 +1,114 @@
+body{
+    background-image: url(images/th.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+.op{
+    color: white;
+    margin-left: 200px;
+}
+
+.d-flex{
+
+    margin-left: 660px;
+}
+
+#nami{
+    margin: auto;
+}
+
+
+input[type=password]{
+
+    border-radius: 30px;
+    border: 1px solid white;
+    height: 30px;
+    width: 300px;
+    margin-left: 90px;
+}
+
+
+input[type=text]{
+
+    border-radius: 30px;
+    border: 1px solid white;
+    height: 30px;
+    width: 300px;
+    margin-left: 90px;
+}
+
+input[type=button]{
+
+    border-radius: 30px;
+    border: 1px solid black;
+    height: 35px;
+    width: 305px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    margin-left: 90px;
+}
+
+#nami{
+
+    border: 1px;
+    margin-left: 430px;
+    margin-top: 115px;
+    border-radius: 30px;
+    height: 300px;
+    width: 500px;
+
+}
+
+
+.ui{
+    color: white;
+    margin-left: 145px;
+    text-decoration: none;
+}
+
+
+img{
+    height: 80px;
+    border-radius: 10px;
+    width: 80px;
+    margin-left: 200px;
+}
+
+
+.ti{
+
+
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+
+::placeholder{
+
+    text-align:center;
+    font-weight: 700;
+}
+
+
+@media(max-width:600px){
+
+   body{
+     
+         margin: auto;
+         background-attachment: fixed;
+   }
+
+
+
+   #nami{
+
+    margin: auto;
+    margin-top: 90px;
+
+   }
+
+
+}

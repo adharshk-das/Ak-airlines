@@ -1,0 +1,106 @@
+body{
+    background-image: url(images/mark-stuckey-Pj7bTgtGGQk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    
+}
+
+
+
+
+h1{
+
+    color: aliceblue;
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 80px;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+p{
+    color: aliceblue;
+    padding-left: 80px;
+    font-size: 15px;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-left: 100px;
+}
+
+.btn-brand {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+    border: 1px solid black;
+}
+
+.btn-brand:hover {
+    color: black;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+
+.navbar-collapse, .nav-item{
+
+    padding-left: 10px;
+
+}
+
+
+
+
+li a:hover{
+
+    color:fuchsia;
+
+}
+
+
+.d-flex{
+
+     margin-left: 570px;
+
+}
+
+.container-fluid{
+
+   
+    font-size:large;
+    padding: 3px 0px;
+}
+
+
+
+
+@media (max-width:600px){
+
+    body{
+
+        margin-left: auto;
+        margin-right: auto;
+        background-attachment: fixed;
+
+    }
+
+    .d-flex{
+
+        margin-left: -5px;
+    }
+
+
+    .form-control{
+
+        width: 200px;
+    }
+}

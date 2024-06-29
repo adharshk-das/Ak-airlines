@@ -1,0 +1,225 @@
+  
+body{
+
+    height:auto;
+    width: auto;
+}
+
+
+
+
+.container{
+
+
+    background-color: aliceblue;
+     max-width: 100%;
+     height: 190vh;
+     
+     
+    
+}
+
+
+li a{
+
+   color: black;
+   font-weight:900;
+}
+
+
+
+
+
+.kj{
+
+
+    width: 360px;
+    height: 330px;
+    border-radius: 300%;
+    margin-left: 70px;
+    margin-top: 150px;
+    margin-bottom:140px;
+}
+
+.po{
+
+    text-align: justify;
+    color: black;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-style: italic;
+    
+
+}
+
+.qr{
+
+    color: black;
+    text-align: center;
+    font-style: italic;
+     margin-top: 160px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+
+.prof{
+
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: -100px;
+}
+
+
+.ob{
+
+    margin-top: 100px;
+    margin-left: 180px;
+    font-style: italic;
+
+}
+
+
+.yt{
+
+   margin-left: 180px;
+   margin-top: 20px;
+   font-style: italic;
+   font-size: 20px;
+   font-weight:500;
+}
+
+
+.qa{
+
+
+    margin-left:180px ;
+    margin-top: 40px;
+    text-align: justify;
+    text-overflow:initial;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+
+
+@media(max-width:700px){
+
+     .qr{
+
+        margin-left:auto;
+        margin-top:auto;
+     }
+
+     .po{
+
+        margin-left:auto;
+     }
+
+     .kj{
+
+         margin-left:50px;
+         
+        
+         
+     }
+
+
+     
+
+
+     .nm  {
+
+        font-size:x-large;
+        margin-left: 30px;
+        padding-top: 300px;
+     }
+
+
+     .zx  {
+
+          font-size:x-small;
+          margin-left: -300px;
+          margin-top: -30px;
+
+     }
+
+
+
+     .cv{
+
+
+        margin-left: 210px;
+        height: 20px;
+        width: 55px;
+        font-size:8px;
+       margin-top:20px;
+       
+        
+     }
+
+     .container{
+
+
+        background-color: aliceblue;
+     }
+
+
+     .prof{
+
+
+        height: 200px;
+        width: 200px;
+        margin-left:130px;
+        margin-bottom: 40px;
+       margin-top: 60px;
+
+     }
+
+
+     .qa{
+
+        margin:auto;
+        margin-top: 40px;
+        text-align: justify;
+        
+     }
+
+    
+     .yt{
+
+
+        margin: auto;
+        margin-left: 100px;
+        
+     }
+
+
+     .ob{
+
+
+        margin-top:80px;
+        margin-left: 100px;
+        
+     }
+    
+
+     
+
+    
+
+    
+
+
+
+
+
+
+
+} 
+    
+  
+
+
+

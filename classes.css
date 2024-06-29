@@ -1,0 +1,50 @@
+
+
+.container{
+
+     margin-top:-10px;
+     
+
+}
+
+.card-title{
+
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-text{
+
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;    
+
+}
+
+body{
+
+    background-image: url(images/milad-fakurian-nY14Fs8pxT8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.text-muted{
+
+    color: aliceblue;
+}
+
+
+
+
+@media (max-width:600px){
+    
+
+.container{
+
+    margin: auto;
+}
+
+
+
+}
